@@ -1,0 +1,7 @@
+n=int(input())
+q=int(input())
+print("rectangle star pattern")
+for i in range(n):
+  for j in range(q):
+    print("*",end="")
+  print()
